@@ -1,0 +1,25 @@
+@media (max-width: 785px) {
+    /* Header elements responsive */
+    .burger-wraper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation {
+        display: none;
+    }
+    .header-wraper {
+        width: 80%;
+    }
+}
+@media (max-width: 455px) {
+    /* Header elements responsive */
+    .container-wraper {
+        display: none;
+    }
+    /* Section "Features" elements responsive*/
+    .feature-block {
+        margin: 0 auto;
+    }
+
+}

@@ -6,32 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/responnsive.css" />
     <title>Flex</title>
     <link rel="icon" href="images/icon.svg" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="header-wraper header-flex">
+        <div class="burger-wraper">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <img src="images/logo.svg" alt="orange-logo" />
+        <nav class="navigation">
+          <ul class="nav-ul">
+            <li class="nav-li">
+              <a class="nav-a" href="#">Product</a>
+            </li>
+            <li class="nav-li">
+              <a class="nav-a" href="#">Features</a>
+            </li>
+            <li class="nav-li">
+              <a class="nav-a" href="#">Pricing</a>
+            </li>
+            <li class="nav-li">
+              <a class="nav-a" href="#">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container-wraper">
+          <button class="btn-login" type="button">Log In</button>
+          <button class="btn-signup" type="button">Sign Up</button>
+        </div>
+      </div>
+    </header>
     <main>
+      <!-- First Section-->
+      <section>
+        <div class="section-bg">
+          <div class="content-wraper">
+            <div class="content-text">
+              <div class="header-icon">HEADER</div>
+              <h2>A small business is only as good as its tools.</h2>
+              <p>
+                We're different. Flex is the only saas business platform that
+                lets you run your business on one platform, seamlessly across
+                all digital channels.
+              </p>
+            </div>
+            <form class="email-form" action="#">
+              <input
+                type="email"
+                id="email"
+                name="myemail"
+                placeholder="Enter your work email"
+              />
+              <button class="btn-access" type="submit">Get early access</button>
+            </form>
+            <p>Start your free 14-day trial today, no credit card required.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Section "Companies Logos" -->
+      <section>
+        <div class="logos-wraper">
+            <p>Join 4,000+ companies already growing</p>
+        </div>
+      </section>
       <!-- Section "Features" -->
       <section>
         <div class="section-feature-wraper feature-flex">
-          <div class="head-block">
+          <div class="text-wraper">
             <div class="feature-icon">FEATURES</div>
-            <div class="text-wraper">
-              <h2>Gain more insight into how people use your</h2>
-              <p>
-                With our integrated CRM, project management, collaboration and
-                invoicing capabilities, you can manage every aspect of your
-                business in one secure platform.
-              </p>
-            </div>
+            <h2>Gain more insight into how people use your</h2>
+            <p>
+              With our integrated CRM, project management, collaboration and
+              invoicing capabilities, you can manage every aspect of your
+              business in one secure platform.
+            </p>
           </div>
           <div class="features-grid">
             <!-- 1st block -->
             <div class="feature-block">
-              <div class="icon-block"></div>
+              <div class="icon-block">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
               <div class="feature-desc">
                 <h4>Measure your performance</h4>
                 <p>
